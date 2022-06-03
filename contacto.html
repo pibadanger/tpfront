@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"">
+  <meta name=" viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.5, maximum-scale=2.0">
+  <meta name="description" content="The art portfolio of PibaDanger">
+  <meta name="title" content="Contacto">
+  <meta name="keywords" content="contacto, art, design">
+  <link rel="icon" href="IMG\icon1.png">
+  <link rel="stylesheet" href="CSS\contactostyle.css">
+  <title>Pibadanger Contacto</title>
+
+  <script src="https://kit.fontawesome.com/5dd0236cb0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+        <main>
+                   <form action="" class="formulario" id="formulario">
+                    <div class="formulario__grupo " id="grupo__nombre">
+                      <label for="nombre" class="formulario__label">Nombre</label>
+                      <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre">
+                        <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y
+                        guion bajo.</p>
+                    </div>
+
+                  <div class="formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">Correo Electrónico</label>
+                    <div class="formulario__grupo-input">
+                      <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                      <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+
+                  </div>
+
+                  <div class="formulario__comment" id="grupo__comment">
+                    <label for="comment" class="formulario__label">Comentarios</label>
+                    <div class="formulario__grupo-input-comment">
+                      <input type="text" class="formulario__input" name="comment" id="comment" placeholder="Escriba su comentario">
+                      <i class="formulario__validacion-estado fas fa-times-circle"></i>
+
+                    </div>
+                    <p class="formulario__input-error">El texto solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                  </div>
+
+
+
+                  <div class="formulario__grupo" id="grupo__terminos">
+                    <label class="formulario__label">
+                      <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                      No soy un bot
+                    </label>
+                  </div>
+
+                  <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                  </div>
+
+                  <div class="formulario__grupo" id="formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                  </div>
+
+                </form>
+          </main>
+
+
+  <script src="js/formulario.js"></script>
+
+  </sidebar>
+  <a href="index.html#top">Volver</a>
+
+
+
+</body>
+
+</html>
